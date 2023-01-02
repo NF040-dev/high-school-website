@@ -65,6 +65,7 @@ input[type="checkbox"] {
         text-align: center;
         padding: 16px 0;
         z-index: 5;
+        
     }
     .menu li:hover {
         display: inline-block;
@@ -101,6 +102,9 @@ input[type="checkbox"] {
     text-align: center;
     z-index: 3;
     padding-top: 145px;
+}
+.input_size::placeholder{
+    color: rgb(255, 255, 255);
 }
 
 .home-sec h1 {
@@ -147,7 +151,7 @@ input[type="checkbox"] {
     font-weight: 600;
     padding-bottom: 5px;
     padding-top: 65px;
-    color: #000;
+    color: rgb(114, 110, 110);
     border-bottom: 4px solid green;
 }
 .row_width{
