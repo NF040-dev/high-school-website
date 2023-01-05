@@ -1,5 +1,5 @@
 # high-school-website
-Website For High School Include : headline-bio-photos-login page 
+Website For High School Include : 
 <ol>
   <li>Contact Us.</li>
   <li>A professionalcheadline </li>
