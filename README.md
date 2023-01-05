@@ -1,4 +1,4 @@
 # high-school-website
-website for high school include : headline-bio-photos-login page 
+Website For High School Include : headline-bio-photos-login page 
 
 
