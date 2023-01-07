@@ -43,25 +43,24 @@
     }
   
     function createRatingEl($input, options) {
-      // Inline option
+      
       if (options.inline) {
         var $ratingEl = $('<span class="rating-input"></span>');
       } else {
         var $ratingEl = $('<div class="rating-input"></div>');
       }
   
-      // Copy original classes but the rating class
+     
       if (options.copyClasses) {
         $ratingEl.addClass($input.attr('class'));
         $ratingEl.removeClass('rating');
       }
   
-      // Render rating icons
       for (var i = options.min; i <= options.max; i++) {
         $ratingEl.append('<i class="' + options.iconLib + '" data-value="' + i + '"></i>');
       }
   
-      // Render clear link
+  
       if (options.clearable && !options.readonly) {
         $ratingEl.append('&nbsp;').append(
           '<a class="' + clearClass + '">' +
